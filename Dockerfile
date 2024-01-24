@@ -1,6 +1,6 @@
 FROM tomcat
 
-ADD ./webapp /usr/local/tomcat/webapps/webapp
+ADD ./ERPPortal.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
